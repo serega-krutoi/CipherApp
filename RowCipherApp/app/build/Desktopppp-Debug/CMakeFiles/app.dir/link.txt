@@ -1,0 +1,1 @@
+/bin/g++ -DQT_QML_DEBUG -g -Wl,--dependency-file=CMakeFiles/app.dir/link.d CMakeFiles/app.dir/app_autogen/mocs_compilation.cpp.o CMakeFiles/app.dir/main.cpp.o CMakeFiles/app.dir/mainwindow.cpp.o -o app  /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.15 /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.15 /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.15

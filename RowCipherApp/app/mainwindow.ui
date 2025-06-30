@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>ШИФРАТОР</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>2</y>
+      <width>591</width>
+      <height>341</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>1</number>
+    </property>
+    <widget class="QWidget" name="fileTab">
+     <attribute name="title">
+      <string>Работа с файлами</string>
+     </attribute>
+     <widget class="QComboBox" name="comboBox">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>20</y>
+        <width>261</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>Кодовое слово</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Магический квадрат</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Скитала</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QLineEdit" name="codeWordEdit">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>100</y>
+        <width>391</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="lineEditPath">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>150</y>
+        <width>531</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Выбрать файл</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="encryptButton">
+      <property name="geometry">
+       <rect>
+        <x>400</x>
+        <y>210</y>
+        <width>161</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Зашифровать</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="decryptButton">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>210</y>
+        <width>171</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Расшифровать</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="textTab">
+     <attribute name="title">
+      <string>Работа с текстом</string>
+     </attribute>
+     <widget class="QTextEdit" name="textInputEdit">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>10</y>
+        <width>551</width>
+        <height>100</height>
+       </rect>
+      </property>
+      <property name="placeholderText">
+       <string>Введите текст для шифрования...</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="encryptTextButton">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>150</y>
+        <width>111</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Зашифровать</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="decryptTextButton">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>150</y>
+        <width>111</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Расшифровать</string>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="textOutputEdit">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>200</y>
+        <width>551</width>
+        <height>100</height>
+       </rect>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+      <property name="placeholderText">
+       <string>Результат...</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="copyResultButton">
+      <property name="geometry">
+       <rect>
+        <x>460</x>
+        <y>150</y>
+        <width>111</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Копировать</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="comboBox_TextWork">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>150</y>
+        <width>171</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>Кодовое слово</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Магический квадрат</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Скитала</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QLineEdit" name="codeWordEdit_TextWork">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>115</y>
+        <width>391</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>600</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

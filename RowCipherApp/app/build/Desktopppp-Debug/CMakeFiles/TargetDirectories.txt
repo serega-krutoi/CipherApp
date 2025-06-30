@@ -1,0 +1,5 @@
+/home/kalil/codes/kekArchiticture/app/build/Desktopppp-Debug/CMakeFiles/CipherApp.dir
+/home/kalil/codes/kekArchiticture/app/build/Desktopppp-Debug/CMakeFiles/edit_cache.dir
+/home/kalil/codes/kekArchiticture/app/build/Desktopppp-Debug/CMakeFiles/rebuild_cache.dir
+/home/kalil/codes/kekArchiticture/app/build/Desktopppp-Debug/CMakeFiles/CipherApp_autogen_timestamp_deps.dir
+/home/kalil/codes/kekArchiticture/app/build/Desktopppp-Debug/CMakeFiles/CipherApp_autogen.dir
